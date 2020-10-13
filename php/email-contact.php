@@ -12,7 +12,7 @@ $destinario = 'adrianpalaciosmedrano@gmail.com';
 
 mail($destinario,$asunto,$mensajeCompleto,$header);
 echo "<script>alert('correo enviado exitosamente')</script>";
-    echo "<script> setTimeout(\"location.href='index.html'\",1000)</script>";
+    echo "<script> setTimeout(\"location.href='../index.html'\",1000)</script>";
 
 
 ?>

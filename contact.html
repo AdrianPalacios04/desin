@@ -65,7 +65,7 @@
 	
 	<!-- Start All Pages -->
 	<div class="all-page-title page-breadcrumb">
-		<div class="container text-center">
+		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<h1>Contact</h1>
@@ -89,12 +89,12 @@
 			</div>
 			<div class="row">
 				<div class="col-md-7 col-sm-6">
-					<form id="contactForm">
+					<form action="./php/email-contact.php">
 						<div class="row">
 							<div class="col-md-12">
 								<div class="form-group">
 									<label style="margin-left: 10px;">Su nombre(requerido)</label>
-									<input type="text" class="form-control" id="name" name="name" required data-error="Please enter your name">
+									<input type="text" class="form-control" name="nombre" required data-error="Please enter your name">
 									<div class="help-block with-errors"></div>
 								</div>                                 
 							</div>
@@ -115,7 +115,7 @@
 							<div class="col-md-12">
 								<div class="form-group"> 
 									<label style="margin-left: 10px;">Su Mensaje</label>
-									<textarea class="form-control"  rows="4" data-error="Write your message" required></textarea>
+									<textarea class="form-control"  rows="4" data-error="Write your message" name="mensaje" required></textarea>
 									<div class="help-block with-errors"></div>
 								</div>
 								<div class="submit-button text-center">
@@ -129,7 +129,7 @@
 				</div>
 				<div class="col-md-5 col-sm-6">
 					
-					<img src="imagen/imagenes de prueba/prueba-2.png" alt="">
+					<img src="imagen/iconos/prueba-2.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -138,14 +138,14 @@
 	
 	<!-- Start Contact info -->
 	<div class="contact-imfo-box">
-		<div class="container">
+		<div class="container" >
 			<div class="row">
 				<div class="col-md-4 arrow-right">
 					<i class="fa fa-volume-control-phone"></i>
 					<div class="overflow-hidden">
-						<h4>Phone</h4>
+						<h4>Telefono</h4>
 						<p class="lead">
-							+01 123-456-4590
+							960 793 985
 						</p>
 					</div>
 				</div>
@@ -154,16 +154,16 @@
 					<div class="overflow-hidden">
 						<h4>Email</h4>
 						<p class="lead">
-							yourmail@gmail.com
+							elizabethcaver@hotmail.com
 						</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<i class="fa fa-map-marker"></i>
 					<div class="overflow-hidden">
-						<h4>Location</h4>
+						<h4>Dirección</h4>
 						<p class="lead">
-							800, Lorem Street, US
+							SJL, Lima, 508
 						</p>
 					</div>
 				</div>
